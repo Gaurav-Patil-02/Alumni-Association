@@ -425,7 +425,7 @@ public class EventController {
             
             return ResponseEntity.ok(response);  // Return JSON response
         } else {
-          
+        	
             response.put("error", "User not found");
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
         }
