@@ -1,0 +1,65 @@
+.student-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.student-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.student-profile-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.student-resources-header {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.student-resources-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.student-resources-list li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.view-profile-button,
+.events-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.view-profile-button {
+    background-color: #4caf50;
+    color: white;
+    margin-right: 10px;
+}
+
+.events-button {
+    background-color: #2196f3;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 10px;
+}
